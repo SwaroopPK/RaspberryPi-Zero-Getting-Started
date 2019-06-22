@@ -37,4 +37,4 @@ Default password: **raspberry**
 ## Congratulations!! You can use your RaspberryPi Zero through WiFi now
 
 
-##  IMPORTANT: NEVER REMOVE THE SD CARD DIRECTLY WITHOUT SWITCHING THE BOARD OFF. Use "sudo halt" or "sudo shutdown" to cut the power supply. Wait until the LED in the bulb goes off. Remove the USB connection and then remove the SD Card from the board. Else there's a high chance of SD Card getting corrupted and you will have to do the wholoe process from scratch.
+###  IMPORTANT: NEVER REMOVE THE SD CARD DIRECTLY WITHOUT SWITCHING THE BOARD OFF. Use "sudo halt" or "sudo shutdown" to cut the power supply. Wait until the LED in the bulb goes off. Remove the USB connection and then remove the SD Card from the board. Else there's a high chance of SD Card getting corrupted and you will have to do the wholoe process from scratch.
