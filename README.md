@@ -21,4 +21,20 @@
 **Step 1**: Insert your SD Card to an SD Card Reader and connect to your PC or Laptop. *Overwrite Format* the SD Card using the SD Card Formatter. Write the disc image of the Raspbian OS onto the SD Card using [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/).
 
 **Step 2**: Copy the [SSH]() file and [wpa_supplicant]() into the Boot: drive(**Note**:Use [Notepad ++]() and fill your WiFi Credentials in the wpa_supplicant.conf file before copying.). Eject the SD Card and place it inside the slot providded in the RPi Zero board.
-(**Note**: RPi Zero recognizes UNIX EOL format. Windows users make sure to change to **EDIT**->**EOL Conversion**->**UNIX**. It is shown in the left bottom corner.)
+
+(**Note**: RPi Zero recognizes UNIX EOL format. Windows users, make sure to change wpa_supplicant EOL format to UNIX through **EDIT**->**EOL Conversion**->**UNIX** in Notepad++. It will be shown in the bottom left corner.)
+
+**Step 3**: Connect the wireless USB adaptor to the data slot(No need for an adaptor for RPi Zero W users). Supply power to the board and let the RPi board boot. It will take a minute or two. The board automatically connects to the WiFi using the credentials you have given. Get the IP address of the RPi([Advanced Port Scanner]() might be useful).
+
+**Step 4**: Copy the IP address to the "Host Name(or IP Address)" slot of the PuTTy app. Make sure SSH type is selected and use default ssh port(22).
+
+Default user: **pi**
+
+Default password: **raspberry**
+
+**Step 5**: Type **vncserver** in the putty termial after logging in. You will get the address at which the RPi is running. Open the VNC Viewer. Create a new connection. Enter Your IP Address and click OK. 
+
+## Congratulations!! You can use your RaspberryPi Zero through WiFi now
+
+
+##  IMPORTANT: NEVER REMOVE THE SD CARD DIRECTLY WITHOUT SWITCHING THE BOARD OFF. Use "sudo halt" or "sudo shutdown" to cut the power supply. Wait until the LED in the bulb goes off. Remove the USB connection and then remove the SD Card from the board. Else there's a high chance of SD Card getting corrupted and you will have to do the wholoe process from scratch.
