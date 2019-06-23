@@ -1,5 +1,5 @@
 # RaspberryPi-Zero:Getting Started
-  The Raspberry PI Zero isn’t a low-calorie dessert: it's a member to the low-cost computer family from the Raspberry PI foundation. Even with a low cost of around $10, the Raspberry Pi Zero has a lot of features. The Pi Zero has Mini HDMI out, 1GHz processor, and 512Mb of RAM, which makes it quite a functional computer for such a low cost. The Pi Zero is 60% smaller than the Raspberry Model B+ version of the Pi. So lets get started on using **RPi Zero** through **WiFi**. Only "RPi Zero w" or later versions have an internal wireless LAN and Bluetooth Connectivity.
+      The Raspberry PI Zero isn’t a low-calorie dessert: it's a member to the low-cost computer family from the Raspberry PI foundation. Even with a low cost of around $10, the Raspberry Pi Zero has a lot of features. The Pi Zero has Mini HDMI out, 1GHz processor, and 512Mb of RAM, which makes it quite a functional computer for such a low cost. The Pi Zero is 60% smaller than the Raspberry Model B+ version of the Pi. So lets get started on using **RPi Zero** through **WiFi**. Only "RPi Zero w" or later versions have an internal wireless LAN and Bluetooth Connectivity.
   
 ## HARDWARE REQUIREMENTS
 
