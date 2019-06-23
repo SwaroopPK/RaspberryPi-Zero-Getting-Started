@@ -20,11 +20,11 @@
 
 **Step 1**: Insert your SD Card to an SD Card Reader and connect to your PC or Laptop. *Overwrite Format* the SD Card using the SD Card Formatter. Write the disc image of the Raspbian OS onto the SD Card using [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/).
 
-**Step 2**: Create an empty fie named **ssh** without any extension and copy the file and [wpa_supplicant](wpa_supplicant.conf) into the Boot: drive(**Note**:Use [Notepad ++](../../tree/master/software/) and fill your WiFi Credentials in the wpa_supplicant.conf file before copying.). Eject the SD Card and place it inside the slot providded in the RPi Zero board.
+**Step 2**: Create an empty fie named **ssh** without any extension and copy the file and [wpa_supplicant](wpa_supplicant.conf) into the Boot: drive(**Note**:Use [Notepad ++](https://github.com/SwaroopPK/RaspberryPi-Zero-Getting-Started/tree/master/Software) and fill your WiFi Credentials in the wpa_supplicant.conf file before copying.). Eject the SD Card and place it inside the slot providded in the RPi Zero board.
 
 (**Note**: RPi Zero recognizes UNIX EOL format. Windows users, make sure to change wpa_supplicant EOL format to UNIX through **EDIT**->**EOL Conversion**->**UNIX** in Notepad++. It will be shown in the bottom left corner.)
 
-**Step 3**: Connect the wireless USB adaptor to the data slot(No need for an adaptor for RPi Zero W users). Supply power to the board and let the RPi board boot. It will take a minute or two. The board automatically connects to the WiFi using the credentials you have given. Get the IP address of the RPi([Advanced Port Scanner](tree/master/software/) might be useful).
+**Step 3**: Connect the wireless USB adaptor to the data slot(No need for an adaptor for RPi Zero W users). Supply power to the board and let the RPi board boot. It will take a minute or two. The board automatically connects to the WiFi using the credentials you have given. Get the IP address of the RPi([Advanced Port Scanner](https://github.com/SwaroopPK/RaspberryPi-Zero-Getting-Started/tree/master/Software) might be useful).
 
 **Step 4**: Copy the IP address to the "Host Name(or IP Address)" slot of the PuTTy app. Make sure SSH type is selected and use default ssh port(22).
 
