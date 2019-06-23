@@ -20,7 +20,7 @@
 
 **Step 1**: Insert your SD Card to an SD Card Reader and connect to your PC or Laptop. *Overwrite Format* the SD Card using the SD Card Formatter. Write the disc image of the Raspbian OS onto the SD Card using [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/).
 
-**Step 2**: Create an empty fie named **ssh** without any extension and copy the file and [wpa_supplicant](wpa_supplicant.conf) into the Boot: drive(**Note**:Use [Notepad ++](software/) and fill your WiFi Credentials in the wpa_supplicant.conf file before copying.). Eject the SD Card and place it inside the slot providded in the RPi Zero board.
+**Step 2**: Create an empty fie named **ssh** without any extension and copy the file and [wpa_supplicant](wpa_supplicant.conf) into the Boot: drive(**Note**:Use [Notepad ++](../software/) and fill your WiFi Credentials in the wpa_supplicant.conf file before copying.). Eject the SD Card and place it inside the slot providded in the RPi Zero board.
 
 (**Note**: RPi Zero recognizes UNIX EOL format. Windows users, make sure to change wpa_supplicant EOL format to UNIX through **EDIT**->**EOL Conversion**->**UNIX** in Notepad++. It will be shown in the bottom left corner.)
 
