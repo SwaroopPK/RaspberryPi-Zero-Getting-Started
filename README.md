@@ -13,7 +13,7 @@
 * A disc image of [Raspbian Stretch](https://www.raspberrypi.org/downloads/raspbian/)
 * [SD Card Formatter](https://www.sdcard.org/downloads/formatter/)
 * An Image formatting software, for example [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/)
-* An SSH client like [PuTTY](https://www.putty.org/)
+* An SSH client like [PuTTy](https://www.putty.org/)
 * VNC Viewer, for example [REAL VNC](https://www.realvnc.com/en/connect/download/viewer/)
 
 ## Step-By-Step Procedure
